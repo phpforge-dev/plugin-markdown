@@ -1,0 +1,22 @@
+{
+  "id": "phpforge.markdown",
+  "name": "Markdown",
+  "version": "1.0.0",
+  "minIdeVersion": "0.2.12",
+  "main": "main.js",
+  "description": "Markdown navigation, completion, diagnostics, outline and live preview with Mermaid diagrams.",
+  "activation": {
+    "languages": [
+      "markdown"
+    ]
+  },
+  "permissions": [
+    "project.read",
+    "workbench"
+  ],
+  "workbench": {
+    "apiVersion": 1,
+    "main": "workbench.js",
+    "style": "workbench.css"
+  }
+}
